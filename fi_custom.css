@@ -1,0 +1,136 @@
+/*BASIC CSS RULES*/
+
+    body {
+        padding-bottom: 3rem;
+        background-color: #b85544;
+        /*background-image: url('/images/pattern.png');
+        background-repeat: repeat;*/
+    }
+
+
+/*END BASIC CSS RULES*/
+
+
+/*LAYOUT SPACING*/
+
+    /* Justify-Text */
+                .p-just {
+                    text-align: justify !important;
+                }
+
+
+/*LAYOUT COLORS*/
+
+    /* Header Background Color */
+                .bg-header {
+                    background-color: #3B8183 !important;
+                }
+
+    /* Nav Bar Background Color */
+                .bg-navigation {
+                    background-color: #ED303C !important;
+                }
+
+    /* Main Article Colors */
+                .bg-main {
+                    background-color: #FF9C5B !important;
+                }
+
+    /* Footer Colors */
+                .my-footer-colors {
+                    background-color: #FAD089 !important;
+                    color: rgba(0, 0, 0, .5); /* Faded text color */
+                    
+                }
+
+
+/*END LAYOUT COLORS*/
+
+
+/*ELEMENT COLORS*/
+
+    /* Nav Searchbar Button */
+                .bg-search-custom-btn {
+                    background-color: #3B8183;
+                    color: rgb(216, 214, 214);
+                    border: 1px solid black;
+                }
+
+    /* Nav Searchbar Colors */
+                .nav-search-custom-bg {
+                    background-color: #f07c84;
+                }
+
+    /* Quick Links Header Border */                
+                .quick-links-cont {
+                    border-top: 2px solid rgba(6, 97, 100, .5);
+                    border-bottom: 2px solid rgba(6, 97, 100, .5);
+                }
+
+    /* Card Border Color */
+                .border-primary {
+                    border-color:#3B8183 !important; 
+
+                }
+
+                .border-custom-footer {
+                    border-color: #3B8183 !important;
+                }
+
+
+/*LAYOUT IMAGES*/
+    
+    /* Header Logo Opacity */
+                header img {
+                    opacity: 80%;
+                }
+
+    /* Footer Logo Opacity */
+                .footer-image-fade {
+                    opacity: 50%;
+                }
+
+
+/*END LAYOUT IMAGES*/
+
+
+/*LAYOUT TEXT*/
+
+    /* Main Header Font */
+                main h1 {
+                    font-family: 'Kanit', sans-serif;
+                    font-family: 'Rajdhani', sans-serif;
+                }
+                
+                header a {
+                    color:#202020;
+                    text-decoration: none;
+                }
+
+    /* Footer Text */
+                footer lh {
+                    font-weight: bold;
+                    letter-spacing: .2em;
+                    text-transform: uppercase;
+                }
+
+                .footer-nobullet {
+                    list-style-type: none;
+                }
+
+    /* Quick Links Header */
+                .ql-header {
+                    color: #066164;
+                    text-transform: uppercase;
+                    font-style: italic;
+                }
+
+
+/*NAVBAR LINKS*/
+                #nav-bar a:hover {
+                    color: #000 !important;
+                }
+
+
+
+
